@@ -1,0 +1,63 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found visualization_msgs: 5.9.2 (/opt/ros/lyrical/share/visualization_msgs/cmake)
+-- Found fsd_common_msgs: 0.0.0 (/home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/fsd_common_msgs/share/fsd_common_msgs/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/build/map_to_visualize
+[ 50%] [32mBuilding CXX object CMakeFiles/map_visualizer.dir/src/map_visualizer.cpp.o[0m
+[100%] [1m[32mLinking CXX executable map_visualizer[0m
+[100%] Built target map_visualizer
+-- Install configuration: ""
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/lib/map_to_visualize/map_visualizer
+-- Set non-toolchain portion of runtime path of "/home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/lib/map_to_visualize/map_visualizer" to ""
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/launch
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/launch/visualize_cones.launch.py
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/rviz
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/rviz/cones.rviz
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/map_to_visualize_0.db3
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/metadata.yaml
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/ament_index/resource_index/package_run_dependencies/map_to_visualize
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/ament_index/resource_index/parent_prefix_path/map_to_visualize
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/environment/ament_prefix_path.sh
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/environment/ament_prefix_path.dsv
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/environment/path.sh
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/environment/path.dsv
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/local_setup.bash
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/local_setup.fish
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/local_setup.sh
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/local_setup.zsh
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/local_setup.dsv
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/package.dsv
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/ament_index/resource_index/packages/map_to_visualize
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/cmake/map_to_visualizeConfig.cmake
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/cmake/map_to_visualizeConfig-version.cmake
+-- Installing: /home/ddl-cyber/桌面/ros2_homework_advanced_ws/install/map_to_visualize/share/map_to_visualize/package.xml

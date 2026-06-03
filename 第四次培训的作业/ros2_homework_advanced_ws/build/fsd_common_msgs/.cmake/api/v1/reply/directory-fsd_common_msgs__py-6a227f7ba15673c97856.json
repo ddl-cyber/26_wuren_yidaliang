@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fsd_common_msgs__py",
+		"source" : "/home/ddl-cyber/\u684c\u9762/ros2_homework_advanced_ws/build/fsd_common_msgs/fsd_common_msgs__py"
+	}
+}

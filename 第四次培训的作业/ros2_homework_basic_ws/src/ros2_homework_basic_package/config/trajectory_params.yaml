@@ -1,0 +1,30 @@
+# 8字形运动轨迹参数配置文件
+# 本文件定义了控制海龟画8字形轨迹所需的所有固定参数
+
+# ROS2 参数文件格式：必须以节点名称为顶层键，内部包含 ros__parameters
+# 节点名称必须与 launch 文件中指定的 name 一致（这里是 eight_figure_node）
+eight_figure_node:
+  ros__parameters:
+    # 速度参数
+    # 线速度（linear velocity）：控制海龟前进/后退的速度，单位 m/s
+    # 正值表示前进，负值表示后退
+    linear_velocity: 1.0
+
+    # 角速度（angular velocity）：控制海龟转弯的快慢，单位 rad/s
+    # 正值表示逆时针旋转，负值表示顺时针旋转
+    angular_velocity: 1.0
+
+    # 轨迹几何参数
+    # 圆的半径（radius）：8字由两个相切的圆组成，定义圆的半径，单位 m
+    # 半径 = 线速度 / 角速度
+    # 当线速度和角速度相等时，半径为1.0米
+    radius: 1.0
+
+    # 运动周期参数
+    # 单个圆的周期（period）：画一个完整圆所需的时间，单位 s
+    # 周期 = 2 * PI / |角速度|
+    period: 6.283185307
+
+    # 控制循环频率（loop_rate）：发布速度指令的频率，单位 Hz
+    # 频率越高，控制越平滑，但对系统资源消耗越大
+    loop_rate: 100

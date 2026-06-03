@@ -1,0 +1,5 @@
+source;share/fsd_common_msgs/local_setup.bash
+source;share/fsd_common_msgs/local_setup.dsv
+source;share/fsd_common_msgs/local_setup.fish
+source;share/fsd_common_msgs/local_setup.sh
+source;share/fsd_common_msgs/local_setup.zsh
